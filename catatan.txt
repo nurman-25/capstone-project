@@ -1,0 +1,23 @@
+run backend:
+uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+
+test login
+admin : a@gmail.com 
+        12345678
+staff : n@gmail.com
+        11111111
+        s@gmail.com
+        12345678
+
+run flutter :
+note (lihat di IP terlebih dahulu, caranya:
+1. buka terminal
+2. ketik ipconfig
+3. lihat ipv4 pada wifi.)
+lalu salin ip tersebut ganti dengan ip di bawah ini, lalu jalankan flutter
+flutter run --dart-define=API_BASE_URL=http://10.10.43.134:8000
+flutter run --dart-define=API_BASE_URL=http://10.20.27.71:8000
+
+
+olah data (training) sesuaikan dengan epochs maunya berapa :
+python -u train_bahan_real_specific.py --images_dir ..\BAHAN_REAL\images --ann_dir ..\BAHAN_REAL\annotations --output_dir ..\model_bahan_real_specific --epochs 50 --batch_size 2 --val_ratio 0.0

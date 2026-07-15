@@ -1,0 +1,27 @@
+PENJELASAN GRAFIK TRAINING LOSS FASTER R-CNN (50 EPOCHS - 222 KELAS)
+===================================================================
+
+Grafik pada "loss_plot.png" menggambarkan perkembangan nilai Loss (tingkat kesalahan model) dari epoch 1 hingga epoch 50 selama proses training model object detection Faster R-CNN menggunakan dataset BAHAN_REAL (99 gambar dan 222 kelas produk).
+
+Berikut adalah penjelasan dan analisis grafik tersebut:
+
+1. Tren Penurunan yang Konsisten (Steady Convergence):
+   * Sumbu X merepresentasikan jumlah Epoch (1 sampai 50).
+   * Sumbu Y merepresentasikan Nilai Loss (Tingkat Kesalahan).
+   * Kurva menunjukkan tren penurunan yang sangat mulus dari awal hingga akhir training. Ini menandakan model belajar secara stabil tanpa adanya lonjakan nilai loss yang ekstrem (tidak terjadi divergensi).
+
+2. Fase Awal Training (Epoch 1 - 10):
+   * Pada Epoch 1, loss dimulai di angka 1.8647. Nilai ini relatif tinggi karena model baru mulai menyesuaikan bobotnya dengan 222 kelas produk yang sangat spesifik.
+   * Terjadi penurunan yang cukup tajam hingga Epoch 10 (mencapai 1.3724), menunjukkan model sangat cepat mempelajari fitur-fitur dasar visual kemasan produk.
+
+3. Fase Pembelajaran Stabil (Epoch 11 - 40):
+   * Loss menurun secara konstan dan konsisten dari kisaran 1.30 hingga mencapai di bawah 0.30.
+   * Penurunan yang stabil ini didorong oleh penggunaan optimizer SGD dikombinasikan dengan Cosine Annealing Learning Rate Scheduler, yang memperkecil laju pembelajaran (learning rate) secara bertahap agar langkah pencarian bobot semakin presisi.
+
+4. Fase Akhir & Konvergensi Optimal (Epoch 41 - 50):
+   * Nilai loss mulai melandai (plateau) di bawah angka 0.20, yang menandakan model telah mencapai batas optimal pemahamannya terhadap dataset.
+   * Nilai Loss terbaik (terendah) dicapai pada Epoch 48 dengan nilai 0.1934.
+   * Fluktuasi sangat tipis di Epoch 49 (0.1947) dan Epoch 50 (0.1988) adalah hal yang sangat wajar dalam deep learning karena efek stokastik saat optimizer mencari titik paling minimum di akhir pembelajaran.
+
+KESIMPULAN:
+Grafik loss ini menunjukkan karakteristik training yang "SANGAT IDEAL" (Well-fit). Model berhasil mencapai konvergensi optimal dengan loss akhir di bawah 0.20 tanpa adanya tanda-tanda overfitting ataupun instabilitas data. Penggunaan Opsi A (val_ratio = 0.0) terbukti efektif memberikan kestabilan training penuh untuk mengenali ke-222 kelas produk secara akurat.

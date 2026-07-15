@@ -1,0 +1,102 @@
+Valid pairs: 99
+Classes (222): ['abc_kecap_manis', 'active_day', 'ala', 'all_purpose_milk', 'anlene', 'apetito', 'astor', 'baconzilos', 'bango', 'big_roll_s', 'biore', 'biskuat', 'blue_band', 'boneeto', 'boom', 'brownie_crunch', 'buavita', 'cassie', 'cavins', 'cerelac', 'cheerios', 'cheest_twirls', 'cheetos', 'cheezy_bites', 'chiki_twist', 'chil_go', 'chips_ahoy', 'chocolatos', 'choki_choki', 'churros', 'ciptadent', 'clear', 'closeup', 'coco_pops', 'cocoa_puffs', 'cocoa_pulls', 'cookie_crisp', 'cooling_fresh', 'corn_flakes', 'corn_pops', 'curcuma_plus', 'daia', 'dancow', 'deo_frotect', 'diabetasol', 'diamond_juice', 'diamond_milk', 'dimes_peach', 'doritos', 'duck', 'egoji', 'entranasol', 'extra_comfort', 'extrajoss', 'floridas_natural', 'foxs', 'fresh_milk', 'frish_milk', 'frost_bite', 'frosted_flakes', 'fruit_tea', 'fruity_pebbles', 'galaxy', 'garnier_men', 'gery', 'get_git', 'glad2glow', 'golden_grahams', 'gpu', 'gresh_jeruk', 'gresh_orange', 'haku', 'haribo_chamllows', 'hello_panda', 'hemaviton_jreng_madu', 'hilo_calcium', 'honey_crunch', 'hotincream', 'hydro_coco', 'im_coco', 'indomie', 'indomie_hype_abis', 'indomie_kari_ayam', 'indomilk', 'indomilk_good_milk', 'intimus', 'japota', 'jolly', 'just_right', 'kahf', 'kis', 'kitkat', 'klin_smart', 'koko_krunch', 'kopiko', 'krave', 'kunci_biru', 'lactogrow_pro', 'lays', 'lemon_madu', 'lidi_celi', 'lite', 'maita_tortilla', 'makaroni_madness', 'malee', 'marina', 'mars', 'maxicorn', 'milk_duds', 'milkita', 'milku', 'milo', 'mintz', 'miranda', 'modis', 'mom_s_recipe', 'my_baby', 'nabati', 'nakari', 'narabali', 'narabis', 'nescafe_gold', 'nescafe_original', 'nesquik', 'nesquik_bio', 'nestle_beard_brand', 'nii_green_tea', 'nii_milk_tea', 'nivea', 'nutello', 'nutri_boost', 'nutri_grain', 'nutrisari', 'nyu', 'oat_chocoball', 'omo', 'orange_water', 'oreo', 'oreo_os', 'ovaltime', 'ovaltine', 'palmia', 'pancake', 'panchos', 'parazone', 'pepero', 'pepsodent', 'piatos', 'pilus', 'pocari_sweat', 'poci', 'pocky', 'pond_s', 'pondan', 'pop_corn', 'pop_cornz', 'pop_ice', 'pop_tarts', 'pota_bee', 'prenagen', 'primagro', 'primamil', 'pringles', 'pucuk_harum', 'razzles', 'rebo', 'relaxa', 'rich_milk', 'rosta', 'ruffles', 'sambal_matah', 'sari_kurma_tj', 'sari_murni', 'sarjayu', 'sedaap', 'segitiga_biru', 'selamat_block_vanila', 'siip', 'silverqueen', 'snickers', 'sponge', 'sprite', 'stars', 'sukro', 'sun', 'sunny_gold', 'super_zuper', 'supermie', 'surf', 'tango', 'teh_gelas', 'tehbotol', 'tempe_krezi', 'thums_up', 'tic_tac', 'tixan', 'tixan_ype', 'tj_joybee', 'tos_tos', 'trix', 'tropicana_slim', 'tutti_fruitti', 'twiscorn', 'twister', 'twix', 'ultra_milk', 'up', 'vaseline', 'vitamin_a_ipi', 'vitamin_b_complex_ipi', 'vitamin_cipi', 'wafelllo', 'waffle', 'waffle_crisp', 'whip', 'wippy_cream', 'yakult', 'yam_cookies', 'yupi_babby_bears', 'yupi_strawberry', 'zee', 'zinc']
+Training on 100% of data (val_ratio=0.00). Validation set is identical to training set.
+Device: cpu
+Epoch 001/50 | train_loss=1.8647 | val_loss=1.8647
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 002/50 | train_loss=1.7367 | val_loss=1.7367
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 003/50 | train_loss=1.6918 | val_loss=1.6918
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 004/50 | train_loss=1.6465 | val_loss=1.6465
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 005/50 | train_loss=1.6148 | val_loss=1.6148
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 006/50 | train_loss=1.5165 | val_loss=1.5165
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 007/50 | train_loss=1.5170 | val_loss=1.5170
+Epoch 008/50 | train_loss=1.4342 | val_loss=1.4342
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 009/50 | train_loss=1.3922 | val_loss=1.3922
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 010/50 | train_loss=1.3724 | val_loss=1.3724
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 011/50 | train_loss=1.3065 | val_loss=1.3065
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 012/50 | train_loss=1.2658 | val_loss=1.2658
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 013/50 | train_loss=1.2093 | val_loss=1.2093
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 014/50 | train_loss=1.1642 | val_loss=1.1642
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 015/50 | train_loss=1.1172 | val_loss=1.1172
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 016/50 | train_loss=1.0820 | val_loss=1.0820
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 017/50 | train_loss=1.0247 | val_loss=1.0247
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 018/50 | train_loss=1.0105 | val_loss=1.0105
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 019/50 | train_loss=0.9114 | val_loss=0.9114
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 020/50 | train_loss=0.9010 | val_loss=0.9010
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 021/50 | train_loss=0.8056 | val_loss=0.8056
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 022/50 | train_loss=0.7836 | val_loss=0.7836
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 023/50 | train_loss=0.7672 | val_loss=0.7672
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 024/50 | train_loss=0.6920 | val_loss=0.6920
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 025/50 | train_loss=0.6926 | val_loss=0.6926
+Epoch 026/50 | train_loss=0.6087 | val_loss=0.6087
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 027/50 | train_loss=0.6104 | val_loss=0.6104
+Epoch 028/50 | train_loss=0.5604 | val_loss=0.5604
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 029/50 | train_loss=0.5482 | val_loss=0.5482
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 030/50 | train_loss=0.4973 | val_loss=0.4973
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 031/50 | train_loss=0.4824 | val_loss=0.4824
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 032/50 | train_loss=0.4382 | val_loss=0.4382
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 033/50 | train_loss=0.4278 | val_loss=0.4278
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 034/50 | train_loss=0.3915 | val_loss=0.3915
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 035/50 | train_loss=0.3763 | val_loss=0.3763
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 036/50 | train_loss=0.3412 | val_loss=0.3412
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 037/50 | train_loss=0.3271 | val_loss=0.3271
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 038/50 | train_loss=0.3064 | val_loss=0.3064
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 039/50 | train_loss=0.2748 | val_loss=0.2748
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 040/50 | train_loss=0.2653 | val_loss=0.2653
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 041/50 | train_loss=0.2487 | val_loss=0.2487
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 042/50 | train_loss=0.2395 | val_loss=0.2395
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 043/50 | train_loss=0.2263 | val_loss=0.2263
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 044/50 | train_loss=0.2181 | val_loss=0.2181
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 045/50 | train_loss=0.2096 | val_loss=0.2096
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 046/50 | train_loss=0.2029 | val_loss=0.2029
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 047/50 | train_loss=0.2019 | val_loss=0.2019
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 048/50 | train_loss=0.1934 | val_loss=0.1934
+  saved best -> ..\model_bahan_real_specific\best_fasterrcnn.pth
+Epoch 049/50 | train_loss=0.1947 | val_loss=0.1947
+Epoch 050/50 | train_loss=0.1988 | val_loss=0.1988
+Selesai. Best: ..\model_bahan_real_specific\best_fasterrcnn.pth
+Classes: ..\model_bahan_real_specific\classes.json
+

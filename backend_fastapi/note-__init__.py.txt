@@ -1,0 +1,1 @@
+__init__.py memang kosong, tapi tetap penting untuk menandai folder sebagai package Python. Kalau dihapus, pada beberapa kasus import bisa tetap jalan di Python modern, tetapi struktur project jadi kurang aman dan bisa menimbulkan masalah saat dijalankan atau di-deploy. Jadi lebih baik dibiarkan.

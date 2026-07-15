@@ -1,0 +1,1 @@
+__pycache__ adalah folder cache otomatis dari Python untuk mempercepat proses loading. Isinya tidak penting untuk source code utama dan bisa dihapus kapan saja, karena Python akan membuatnya lagi saat aplikasi dijalankan.
