@@ -1,0 +1,50 @@
+<annotation>
+	<folder>images</folder>
+	<filename>produk_004.jpg</filename>
+	<path>D:\SEMESTER 6\khusus capstone\updet capstone\BAHAN_REAL\images\produk_004.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>581</width>
+		<height>1032</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Lays</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>253</xmin>
+			<ymin>321</ymin>
+			<xmax>382</xmax>
+			<ymax>406</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Lays</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>290</xmin>
+			<ymin>533</ymin>
+			<xmax>403</xmax>
+			<ymax>618</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Cheest Twirls</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>260</xmin>
+			<ymin>713</ymin>
+			<xmax>381</xmax>
+			<ymax>805</ymax>
+		</bndbox>
+	</object>
+</annotation>

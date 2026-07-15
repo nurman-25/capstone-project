@@ -1,0 +1,50 @@
+<annotation>
+	<folder>images</folder>
+	<filename>produk_044.jpg</filename>
+	<path>D:\SEMESTER 6\khusus capstone\updet capstone\BAHAN_REAL\images\produk_044.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>676</width>
+		<height>1200</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Ultra Milk</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>285</xmin>
+			<ymin>487</ymin>
+			<xmax>365</xmax>
+			<ymax>567</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Indomilk</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>144</xmin>
+			<ymin>310</ymin>
+			<xmax>224</xmax>
+			<ymax>390</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Fresh Milk</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>203</xmin>
+			<ymin>729</ymin>
+			<xmax>296</xmax>
+			<ymax>822</ymax>
+		</bndbox>
+	</object>
+</annotation>

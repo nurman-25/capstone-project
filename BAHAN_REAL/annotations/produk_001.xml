@@ -1,0 +1,26 @@
+<annotation>
+	<folder>BAHAN_REAL</folder>
+	<filename>produk_001.jpg</filename>
+	<path>D:\SEMESTER 6\khusus capstone\updet capstone\BAHAN_REAL\produk_001.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>736</width>
+		<height>981</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Intimus</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>237</xmin>
+			<ymin>131</ymin>
+			<xmax>335</xmax>
+			<ymax>203</ymax>
+		</bndbox>
+	</object>
+</annotation>

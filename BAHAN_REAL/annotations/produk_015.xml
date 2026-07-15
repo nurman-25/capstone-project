@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>produk_015.jpg</filename>
+	<path>D:\SEMESTER 6\khusus capstone\updet capstone\BAHAN_REAL\images\produk_015.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>736</width>
+		<height>1308</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Ultra Milk</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>447</xmin>
+			<ymin>155</ymin>
+			<xmax>613</xmax>
+			<ymax>464</ymax>
+		</bndbox>
+	</object>
+</annotation>
